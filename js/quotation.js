@@ -10,7 +10,7 @@ const quotes = [
   },
   {
     quote:
-      "명심해라. 이제 너도 어른이라는 것을. 어름이라는 것은 바로 어린 시절 그토록 부모에게 받고자 했던 그것을 스스로에게 주는 사람이라는 것을.",
+      "명심해라. 이제 너도 어른이라는 것을. 어른이라는 것은 바로 어린 시절 그토록 부모에게 받고자 했던 그것을 스스로에게 주는 사람이라는 것을.",
     author: "공지영",
   },
   {
@@ -29,7 +29,6 @@ const quotes = [
   },
 ];
 const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
-console.log(randomQuote);
 
 const quote = document.querySelector("#quote");
 const author = document.querySelector("#author");
