@@ -11,13 +11,20 @@
     <div class="column">
       <div>
         <h3 class="time">00:00</h3>
+        <div class="login"></div>
         <form class="hidden loginForm">
-          <input type="text" class="loginForm__input" maxlength="10" required />
+          <input
+            type="text"
+            class="loginForm__input"
+            placeholder="Write down your name"
+            maxlength="10"
+            required
+          />
         </form>
-        <h2 class="greeting hidden">Hello 서영</h2>
+        <div class="greeting hidden">Hello 서영</div>
         <div class="quotation">
           <h3 id="quote"></h3>
-          <h3 id="author"></h3>
+          <h5 id="author"></h5>
         </div>
       </div>
       <div id="weather">
@@ -27,7 +34,7 @@
     </div>
     <div class="column">
       <form id="todo__form">
-        <input id="todo__input" type="text" />
+        <input id="todo__input" placeholder="todo list" type="text" />
       </form>
       <ul class="todo__ul"></ul>
     </div>
